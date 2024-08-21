@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 FROM public.ecr.aws/c8e3e2b5/react-app-aws:latest
- 
+# 
 # Create app director
 =======
 public.ecr.aws/c8e3e2b5/react-app-aws:latest

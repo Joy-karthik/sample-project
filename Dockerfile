@@ -1,6 +1,6 @@
 FROM public.ecr.aws/c8e3e2b5/react-app-aws:latest
  
-# Create app directory
+# Create app director
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
  

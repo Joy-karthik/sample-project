@@ -1,4 +1,4 @@
-public.ecr.aws/c8e3e2b5/react-app-aws:latest
+FROM public.ecr.aws/c8e3e2b5/react-app-aws:latest
  
 # Create app directory
 RUN mkdir -p /usr/src/app

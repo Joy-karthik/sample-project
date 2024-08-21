@@ -1,12 +1,6 @@
 
 FROM public.ecr.aws/c8e3e2b5/react-app-aws:latest
-#123 
-# Create app director
-=======
-public.ecr.aws/c8e3e2b5/react-app-aws:latest
-# 
-# Create app directory
->>>>>>> 6171fcf (Dockerfile)
+
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
  

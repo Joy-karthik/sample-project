@@ -16,4 +16,4 @@ COPY . /usr/src/app
  
 # Expose port
 EXPOSE 80
-CMD [ "npm", "start" ]
+CMD [ "npm", "run", "start" ]

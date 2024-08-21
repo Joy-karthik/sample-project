@@ -1,4 +1,4 @@
-
+#1
 FROM public.ecr.aws/c8e3e2b5/react-app-aws:latest
 
 RUN mkdir -p /usr/src/app

@@ -1,8 +1,8 @@
-name: Node.js CI with Codacy
+name: React CI with Codacy
 
 on:
   push:
-    branches: [ Master ]
+    branches: [ Master, main ]
   pull_request:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run tests with coverage
-        run: npm run test:coverage
+        run: npm test
 
       - name: Upload coverage to Codacy
         env:

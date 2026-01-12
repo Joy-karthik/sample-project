@@ -28,7 +28,4 @@ jobs:
         env:
           CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
         run: |
-          bash <(curl -Ls https://coverage.codacy.com/get.sh) report \
-          --language JavaScript \
-          --force-coverage-parser lcov \
-          --file ./coverage/lcov.info
+          bash <(curl -Ls https://coverage.codacy.com/get.sh) report ./coverage/lcov.info

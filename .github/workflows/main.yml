@@ -31,4 +31,4 @@ jobs:
           bash <(curl -Ls https://coverage.codacy.com/get.sh) report \
           --language JavaScript \
           --force-coverage-parser lcov \
-          --coverage-files ./coverage/lcov.info
+          --file ./coverage/lcov.info
